@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+  }
+  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  /* background-color: black; */
+}
+
+li, a, button { 
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    /* background-color: black; */
+    margin: .5em;
+}
+
