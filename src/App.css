@@ -1,0 +1,9 @@
+.section-title { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-name { 
+    font-size: 45px;
+}
