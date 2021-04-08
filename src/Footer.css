@@ -1,0 +1,22 @@
+.footer-container { 
+    background: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.socials li { 
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 10px;
+    background-color: lavender;
+}
+
+.socials button { 
+    background-color: lavender;
+    border: none;
+    cursor:pointer;
+    font-size: 19px;
+}
