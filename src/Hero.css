@@ -4,14 +4,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    height: 70vh;
+    margin: 25px;
 }
 
 .hero-name { 
     font-size: 75px;
-    margin: 2em 0em .5em 0em;
+    margin: 1em auto;
 }
 
 .hero-about-me { 
     margin: 20px;
+    
 }

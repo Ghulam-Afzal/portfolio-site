@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar'; 
 import HeroContent from './Hero'; 
 import Projects from './Projects';
+import Footer from './Footer';
 import './App.css'; 
 
 
@@ -15,6 +16,9 @@ function App() {
         <h1 className='section-name'>Projects</h1>
       </div>
       <Projects />
+      <Projects />
+      <Projects />
+      <Footer /> 
     </div>
   );
 }
