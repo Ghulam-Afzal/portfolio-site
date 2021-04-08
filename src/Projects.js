@@ -1,13 +1,13 @@
 import React from 'react'; 
 import './Projects.css';
+import Test from './Test.PNG';
 
 
 const Projects = () => { 
-    const url = 'https://images.unsplash.com/photo-1616323174408-ec48c6914524?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80'
     return ( 
         <div>
             <div className='card'> 
-                <div className='img-container'><img src={url} alt='prop' width = "300" height = "300"></img></div>
+                <div className='img-container'><img src={Test} alt='Test-Project'></img></div>
                 <div className='project-desc'>
                     <h3 className='title'>Title</h3>
                     <p className='info'>Praesent erat augue, tristique ac nulla eget, ullamcorper elementum erat. 
