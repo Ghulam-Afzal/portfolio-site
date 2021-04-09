@@ -5,7 +5,7 @@ import Test from './Test.PNG';
 
 const Projects = () => { 
     return ( 
-        <div>
+        <div id='projects'>
             <div className='card'> 
                 <div className='img-container'><img src={Test} alt='Test-Project'></img></div>
                 <div className='project-desc'>
