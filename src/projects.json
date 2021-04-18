@@ -1,7 +1,7 @@
 [
     {
         "name": "Portfolo Site v2",
-        "desc": "Portfolio site created using React Js, where I showcase my personal projects.",
+        "desc": "Portfolio site created using React Js, where I showcase my projects.",
         "github": "https://github.com/Ghulam-Afzal/portfolio-site",
         "website": "https://Ghulam-Afzal.github.io/portfolio-site",
         "img": "./portfolio-site-react.PNG"
@@ -17,7 +17,7 @@
 
     {
         "name": "Portolio Site v1",
-        "desc": "Website created with HTML and CSS to help showcase the projects that I have been worling on, has since been replaced by the website you are currently on.",
+        "desc": "Website created with HTML and CSS to help showcase the projects that I have been working on has since been replaced by the website you are currently on.",
         "github": "https://github.com/Ghulam-Afzal/Ghulam-Afzal.github.io",
         "website": "https://ghulam-afzal.github.io/",
         "img": "./portfolio-site..PNG"

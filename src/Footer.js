@@ -16,7 +16,7 @@ const Footer = () => {
                 <li><a href ={twitterLink}><button><FaTwitter /></button></a></li>
             </div>
             <div className='copyright'>
-                <p><FaRegCopyright /> Copyright 2021</p>
+                <p><FaRegCopyright /> Ghulam Afzal Copyright 2021</p>
             </div>
         </div>
     )
