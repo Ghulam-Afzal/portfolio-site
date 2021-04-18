@@ -19,7 +19,6 @@
     transition: 0.3s;
     width: 45vw;
     max-width: 560px;
-    max-height: 320px;
     margin: 10px;
 }
 
@@ -30,7 +29,6 @@
 
 .btn-container { 
     display: block;
-    /* grid-row: 1; */
 }
 
 .projec-btns { 
@@ -71,5 +69,17 @@ img {
         width: 90vw;
         max-width: 400px;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .btn-container { 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+
+    }
+    .projec-btns { 
+      width: 50px;
     }
 }

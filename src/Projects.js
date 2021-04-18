@@ -1,25 +1,28 @@
 import React from 'react'; 
 import './Projects.css';
-import Test from './Test.PNG';
+import projectData from './projects.json'
+
 
 
 const Projects = () => { 
-    return ( 
-        <div id='projects'>
+    const projectList = projectData.map((info, i) => 
+        <div id='projects' key={i}>
             <div className='card'> 
-                <div className='img-container'><img src={Test} alt='Test-Project'></img></div>
+                <div className='img-container'><img src={info.img} alt='Test-Project' ></img></div>
                 <div className='project-desc'>
-                    <h3 className='title'>Title</h3>
-                    <p className='info'>Praesent erat augue, tristique ac nulla eget, ullamcorper elementum erat. 
-                    Aliquam condimentum a risus ut hendrerit. Duis imperdiet tincidunt diam in rutrum. Duis mattis 
-                    scelerisque tortor, sit amet lobortis augue blandit a. Pellentesque libero augue, dignissim id sapien ac, congue ultricies urna. 
-                    Duis gravida porttitor magna, sit amet luctus nisl mattis et. Praesent id ullamcorper diam, quis sodales tellus.</p>
+                    <h3 className='title'>{info.name}</h3>
+                    <p className='info'>{info.desc} </p>
                     <div className='btn-container'>
-                        <button className='projec-btns'>Code</button>
-                        <button className='projec-btns'>Website</button>
+                        <a href={info.github}  ><button className='projec-btns'>Code</button></a>
+                        <a href={info.website} ><button className='projec-btns'>Website</button></a>
                     </div>
                 </div>
             </div>
+        </div>
+    );
+    return ( 
+        <div>
+            { projectList }
         </div>
     )
 

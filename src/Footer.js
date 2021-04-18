@@ -3,15 +3,17 @@ import './Footer.css';
 import { FaGithub, FaTwitter, FaLinkedin, FaHome , FaRegCopyright} from "react-icons/fa";
 
 const Footer = () => { 
-    const LinkedinUrl = 'https://www.pluralsight.com/guides/how-to-render-%22a%22-with-optional-href-in-react'
+    const LinkedinUrl = 'https://www.linkedin.com/'
     const GithubUrl = 'https://github.com/Ghulam-Afzal'
+    const homeSectionId = '#home'
+    const twitterLink = 'https://twitter.com/?lang=en'
     return ( 
         <div className='footer-container'>
             <div className='socials'>
-                <li><a href ={LinkedinUrl}><button><FaHome /></button></a></li>
+                <li><a href ={homeSectionId}><button><FaHome /></button></a></li>
                 <li><a href ={LinkedinUrl}><button><FaLinkedin /></button></a></li>
                 <li><a href ={GithubUrl}><button><FaGithub /></button></a></li>
-                <li><a href ={GithubUrl}><button><FaTwitter /></button></a></li>
+                <li><a href ={twitterLink}><button><FaTwitter /></button></a></li>
             </div>
             <div className='copyright'>
                 <p><FaRegCopyright /> Copyright 2021</p>

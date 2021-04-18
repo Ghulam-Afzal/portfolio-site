@@ -1,21 +1,20 @@
 import React from 'react';
-import { FaAlignRight } from 'react-icons/fa';
 import './Navbar.css'; 
 
 const Navbar = () => { 
-    const LinkedinUrl = 'https://www.pluralsight.com/guides/how-to-render-%22a%22-with-optional-href-in-react'
+    const LinkedinUrl = 'https://www.linkedin.com/'
     const GithubUrl = 'https://github.com/Ghulam-Afzal'
-    const sectionID = 'lol'
+    const sectionID = '#projects'
     return ( 
         <div>
             <header>
-                <span className='logo'>sdjfmkldsj</span>
+                <span className='logo'>GAA</span>
                 <nav className='nav-links'>
                     <li><a href ={sectionID}>Projects</a></li>
-                    {/* <li><a href ={url}>About</a></li> */}
+                    <li><a href ={LinkedinUrl}>Linkedin</a></li>
                     <li><a href ={GithubUrl}>Github</a></li>
+                    {/* <li><a href ={url}>About</a></li> */}
                 </nav>
-                <FaAlignRight />
             </header>
             
         </div>
