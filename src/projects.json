@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Portfolo Site v2",
+        "desc": "Portfolio site created uding React Js, where I showcase my personal projects.",
+        "github": "in progess",
+        "website": "in progress",
+        "img": "./portfolio-site-react.PNG"
+    }, 
+
+    {
+        "name": "Python Discord Bot",
+        "desc": "Python bot made using the Discord API, meant to add basic modding functionality..",
+        "github": "https://github.com/Ghulam-Afzal/discord-bot",
+        "website": "https://github.com/Ghulam-Afzal/discord-bot",
+        "img": "./discord-bot.PNG"
+    }, 
+
+    {
+        "name": "Portolio Site v1",
+        "desc": "Website created with HTML and CSS to help showcase the projects that I have been worling on, has since been replaced by the website you are currently on.",
+        "github": "https://github.com/Ghulam-Afzal/Ghulam-Afzal.github.io",
+        "website": "https://ghulam-afzal.github.io/",
+        "img": "./portfolio-site..PNG"
+    }
+
+]
