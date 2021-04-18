@@ -9,8 +9,7 @@
 }
 
 .project-desc { 
-    /* height: 300px; */
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
