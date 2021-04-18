@@ -1,15 +1,15 @@
 [
     {
         "name": "Portfolo Site v2",
-        "desc": "Portfolio site created uding React Js, where I showcase my personal projects.",
-        "github": "in progess",
-        "website": "in progress",
+        "desc": "Portfolio site created using React Js, where I showcase my personal projects.",
+        "github": "https://github.com/Ghulam-Afzal/portfolio-site",
+        "website": "https://Ghulam-Afzal.github.io/portfolio-site",
         "img": "./portfolio-site-react.PNG"
     }, 
 
     {
         "name": "Python Discord Bot",
-        "desc": "Python bot made using the Discord API, meant to add basic modding functionality..",
+        "desc": "Python bot made using the Discord API, meant to add basic modding functionality.",
         "github": "https://github.com/Ghulam-Afzal/discord-bot",
         "website": "https://github.com/Ghulam-Afzal/discord-bot",
         "img": "./discord-bot.PNG"
