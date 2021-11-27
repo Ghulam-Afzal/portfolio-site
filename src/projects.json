@@ -1,26 +1,26 @@
 [
     {
-        "name": "Portfolo Site v2",
-        "desc": "Portfolio site created using React Js, where I showcase my projects.",
-        "github": "https://github.com/Ghulam-Afzal/portfolio-site",
-        "website": "https://Ghulam-Afzal.github.io/portfolio-site",
-        "img": "./portfolio-site-react.PNG"
+        "name": "Timed",
+        "desc": "A full stack app for Pomodoro timer, countdown timer and a stopwatch timer. Backend rest api made with Nodejs, Express js, Mongoose and Mongodb. Frontend made with React js, Redux and CSS",
+        "github": "https://github.com/Ghulam-Afzal/timed-fullstack",
+        "website": "https://timed.site/",
+        "img": "./timed.PNG"
     }, 
 
     {
-        "name": "Python Discord Bot",
-        "desc": "Python bot made using the Discord API, meant to add basic modding functionality.",
-        "github": "https://github.com/Ghulam-Afzal/discord-bot",
-        "website": "https://github.com/Ghulam-Afzal/discord-bot",
+        "name": "Ryu Discord Bot",
+        "desc": "Discord bot made using the discord api and sqllite. Adds functionality for admin commands, basic economy, and user leveling",
+        "github": "https://github.com/Ghulam-Afzal/ryu-discord-bot",
+        "website": "https://github.com/Ghulam-Afzal/ryu-discord-bot",
         "img": "./discord-bot.PNG"
     }, 
 
     {
-        "name": "Portolio Site v1",
-        "desc": "Website created with HTML and CSS to help showcase the projects that I have been working on has since been replaced by the website you are currently on.",
-        "github": "https://github.com/Ghulam-Afzal/Ghulam-Afzal.github.io",
-        "website": "https://ghulam-afzal.github.io/",
-        "img": "./portfolio-site..PNG"
+        "name": "Portfolo Site",
+        "desc": "Portfolio site created using React Js, where I showcase my projects.",
+        "github": "https://github.com/Ghulam-Afzal/portfolio-site",
+        "website": "https://Ghulam-Afzal.github.io/portfolio-site",
+        "img": "./portfolio-site-react.PNG"
     }
 
 ]
