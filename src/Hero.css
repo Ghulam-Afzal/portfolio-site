@@ -5,20 +5,64 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 70vh;
+    height: 100vh;
     margin: 25px;
 }
 
 .hero-name { 
     font-size: 75px;
-    margin-top: 1em; 
+    margin-top: .5em; 
     margin-bottom: .5em; 
-    /* margin: 1em auto; */
 }
 
 .hero-about-me { 
     font-size: 25px;
     margin: 0em 5em 2em 5em;
+}
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper .icon {
+    position: relative;
+    color: black;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    text-decoration: none;
+}
+
+
+.wrapper .github:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.wrapper .linkedin:hover {
+    background-color: #0072b1;
+    color: #ffffff;
+}
+.wrapper .file:hover {
+    background-color: #CD201F;
+    color: #ffffff;
+}
+
+.wrapper li {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 310px) { 

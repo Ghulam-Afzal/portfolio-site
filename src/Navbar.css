@@ -10,10 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 5%;
-  background-color: #B7D3F2;
 }
-
-
 
 .nav-links li{ 
   display: inline;
@@ -24,6 +21,9 @@ header {
 
 .nav-links a { 
   text-decoration: none;
+  border-radius: 25px;
+  padding: 10px;
+  color: black;
 }
 
 .logo { 
