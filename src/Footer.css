@@ -1,5 +1,4 @@
 .footer-container { 
-    background: #B7D3F2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,11 +16,10 @@
     list-style-type: none;
     text-decoration: none;
     margin: 20px;
-    background-color: #B7D3F2;
+
 }
 
 .socials button { 
-    background-color: #B7D3F2;
     border: none;
     cursor:pointer;
     font-size: 19px;

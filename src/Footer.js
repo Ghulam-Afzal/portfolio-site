@@ -11,9 +11,6 @@ const Footer = () => {
                 <li><a href={Urls.linkedin}><button><FaLinkedin /></button></a></li>
                 <li><a href={Urls.github}><button><FaGithub /></button></a></li>
             </div>
-            <div className='copyright'>
-                <p><FaRegCopyright /> Ghulam Afzal Copyright 2021</p>
-            </div>
         </div>
     )
 }
