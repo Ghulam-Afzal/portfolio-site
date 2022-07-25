@@ -6,7 +6,7 @@ import { Urls } from './url';
 const HeroContent = () => { 
 
     return ( 
-        <div id='home' className='hero'>  
+        <div id='hero' className='hero'>  
             <h1 className='hero-name'>Ghulam Afzal</h1>
             <p className='hero-about-me'>I am currently a junior attending the University of Connecticut as a computer science student. I have a passion for web development, game development, and embedded programming.</p>
             <ul className='wrapper'>
