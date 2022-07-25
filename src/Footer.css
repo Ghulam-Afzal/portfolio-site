@@ -4,11 +4,16 @@
     align-items: center;
     flex-direction: column;
     height: 12vh;
+    text-decoration: none;
 }
 
 .socials 
 .copyright { 
     margin: 5px;
+}
+
+.socials a {
+    text-decoration: none;
 }
 
 .socials li { 

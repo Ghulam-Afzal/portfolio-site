@@ -1,21 +1,18 @@
 import React from 'react';
 import './Navbar.css'; 
+import { Urls } from './url';
 
 const Navbar = () => { 
-    const LinkedinUrl = 'https://www.linkedin.com/'
-    const GithubUrl = 'https://github.com/Ghulam-Afzal'
-    const sectionID = '#projects'
+
     return ( 
-        <div>
+        <div id='home'>
             <header>
                 <span className='logo'>GAA</span>
                 <nav className='nav-links'>
-                    <li><a href ={sectionID}>Projects</a></li>
-                    <li><a href ={LinkedinUrl}>Linkedin</a></li>
-                    <li><a href ={GithubUrl}>Github</a></li>
+                    <li><a href={Urls.hero}>About Me</a></li>
+                    <li><a href={Urls.projects}>Projects</a></li>
                 </nav>
             </header>
-            
         </div>
     )
 }
